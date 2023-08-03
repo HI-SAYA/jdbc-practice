@@ -26,4 +26,10 @@
             , REF_CATEGORY_CODE = ?
         WHERE CATEGORY_CODE = ?
     </entry>
+
+    <entry key="deleteCategory">
+        DELETE
+        FROM TBL_CATEGORY
+        WHER CATEGORY_CODE = ?
+    </entry>
 </properties>
